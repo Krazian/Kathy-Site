@@ -1,0 +1,24 @@
+{
+  "name": "kathy-site",
+  "version": "1.0.0",
+  "description": "- White BG and Black Text - Contant Info (no ‘booking’ feature) - Include affiliation with Melange NYC - Testamonials",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krazian/Kathy-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krazian/Kathy-Site/issues"
+  },
+  "homepage": "https://github.com/Krazian/Kathy-Site#readme"
+}
