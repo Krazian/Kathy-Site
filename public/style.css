@@ -28,6 +28,22 @@ a:active {
     color: #FFFFFF;
 }
 
+#contact-email:link{
+	color:#000000;
+}
+
+#contact-email:visited{
+	color:#000000;
+}
+
+#contact-email:hover{
+	color:#ABB09D;
+}
+
+#contact-email:active{
+	color:#FFFFFF;
+}
+
 #links{
 	text-align: center;
 	font-family: 'Poiret One', cursive;
@@ -44,7 +60,17 @@ a:active {
 	border: solid black 2px;
 }
 
-.images-preview{
+.headshots{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.wedding-and-prom{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.before-and-after{
 	margin: 0 auto;
 	max-width: 1000px;
 }
@@ -57,17 +83,26 @@ h2{
 	font-family: 'Poiret One', cursive;
 }
 
+p{
+	font-family: 'Poiret One', cursive;
+}
+
 footer{
 	text-align: center;
 	font-size: 10px;
 	margin-top: 200px;
 }
-
+/*Media query to adjust the size of the images*/
+/*'Medium' size*/
 @media only screen and (max-width: 60em){
 	#header{
 			font-size: 8em;
 		}
+	.image{
+		height: 150px;
+	}
 }
+/*'Small' size*/
 @media only screen and (max-width: 40em){
 		#header{
 			font-size: 5em;
@@ -78,4 +113,7 @@ footer{
 		#icons{
 			font-size:15px;
 		}
+		.image{
+		height: 100px;
+	}
 }
