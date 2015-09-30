@@ -8,6 +8,6 @@ app.get("/",function(req,res){
 	res.render('index.ejs');
 })
 
-app.listen(3000,function(){
+app.listen(8888,function(){
 	console.log("Kathy's site is live");
 })

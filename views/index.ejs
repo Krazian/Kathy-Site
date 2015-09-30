@@ -2,27 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>KathyGee NYC</title>
+	<title>Kat's Artistry</title>
 	<link rel="stylesheet" href="/../foundation-5.5.2/css/normalize.css">
 	<link rel="stylesheet" href="/../foundation-5.5.2/css/foundation.min.css">
 	<link rel="stylesheet" href="/../font-awesome-4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/../style.css">
 	<link rel="stylesheet" type="text/css" href="/../slick-1.5.7/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="/../slick-1.5.7/slick/slick-theme.css"/>		
+	<link rel="stylesheet" href="/../style.css">
 	<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<!--Modal for all info -->
+	<div class="reveal-modal small" id="aboutModal" data-reveal="">
+		<h2>About</h2>
+ There are many like it but this one is mine. Click the "x" in the upper right hand corner to close or you can click anywhere outside of the window to close
+ <a class="close-reveal-modal">×</a>
+</div>
+
+	<div class="reveal-modal small" id="testimonialsModal" data-reveal="">
+		<h2>Testimonials</h2>
+ There are many like it but this one is mine. Click the "x" in the upper right hand corner to close or you can click anywhere outside of the window to close
+ <a class="close-reveal-modal">×</a>
+</div>
+
+	<div class="reveal-modal small" id="contactModal" data-reveal="">
+		<h2>Contact</h2>
+ There are many like it but this one is mine. Click the "x" in the upper right hand corner to close or you can click anywhere outside of the window to close
+ <a class="close-reveal-modal">×</a>
+</div>
 
 	<!-- The header -->
-	<header class="header" id="header">Kathy Gee NYC</header>
+	<header class="header" id="header" data-reveal-id="myModal">Kat's Artistry</header>
 
 	<!-- The Nav Bar -->
-	<div class="sticky row">
-  <div class="top-bar" id="navbar" data-topbar role="navigation" data-options="sticky_on: [large,medium,small]">
-    <div class="large-3 medium-3 small-3 columns" id="links"> <a class="about" id="nav">About</a> </div>
-    <div class="large-3 medium-3 small-3 columns" id="links"> <a class="testimonials" id="nav">Testimonials</a> </div>
-    <div class="large-3 medium-3 small-3 columns" id="links"> <a class="contact" id="nav">Contact</a> </div>
+	<div class="row">
+  <div class="top-bar" id="navbar" data-topbar role="navigation">
+    <div class="large-3 medium-3 small-3 columns" id="links"> <a data-reveal-id="aboutModal" class="about" id="nav">About</a> </div>
+    <div class="large-3 medium-3 small-3 columns" id="links"> <a data-reveal-id="testimonialsModal" class="testimonials" id="nav">Testimonials</a> </div>
+    <div class="large-3 medium-3 small-3 columns" id="links"> <a data-reveal-id="contactModal" class="contact" id="nav">Contact</a> </div>
     <div class="large-3 medium-3 small-3 columns" id="links">
 	    <a href="http://www.facebook.com/" class="fa fa-facebook-official" id="icons"></a>
 	    <a href="http://www.twitter.com/" class="fa fa-twitter-square" id="icons"></a>
@@ -36,12 +53,14 @@
 <div class="images">
 <!-- Images to be added via jQuery script -->
 </div>
-<footer> &copy; 2015 Designed by Johnathan Chei. All Rights Reserved.</footer>
+
+<footer>Designed by Johnathan Chei. All Rights Reserved.</footer>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="/../foundation-5.5.2/js/vendor/jquery.js"></script>
 <script src="/../foundation-5.5.2/js/foundation/foundation.js"></script>
 <script src="/../foundation-5.5.2/js/foundation/foundation.topbar.js"></script>
+<script src="/../foundation-5.5.2/js/foundation/foundation.reveal.js"></script>
 <script type="text/javascript" src="/../slick-1.5.7/slick/slick.min.js"></script>
 <script type="text/javascript" src="../scripts.js"></script>
 </body>

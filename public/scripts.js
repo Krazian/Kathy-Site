@@ -15,6 +15,14 @@ $(document).ready(function(){
     slidesToScroll: 4,
     touchToMove: true
   });
-});
 
-$(document).foundation()
+  $(".about").click(function () {
+    $('#aboutModal').foundation('reveal', 'open');
+});
+  $(".testimonials").click(function () {
+    $('#testimonialsModal').foundation('reveal', 'open');
+});
+  $(".contact").click(function () {
+    $('#contactModal').foundation('reveal', 'open');
+});
+});

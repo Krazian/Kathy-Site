@@ -42,6 +42,10 @@ a:active {
 	max-width: 1000px;
 }
 
+.slick-prev:before, .slick-next:before { 
+    color:black;
+}
+
 footer{
 	text-align: center;
 	font-size: 10px;
