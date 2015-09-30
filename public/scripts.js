@@ -13,11 +13,10 @@ $(document).ready(function(){
     slidesToScroll: 4,
   	infinite: true,
     autoplay: true,
-    autoPlaySpeed: 200,
+    autoPlaySpeed: 3000,
   	dots: true,
     arrows: true,
-    pauseOnHover: true,
-    adaptiveHeight: true
+    pauseOnHover: true
   });
 
   //click events for modals
