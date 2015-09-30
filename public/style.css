@@ -30,6 +30,7 @@ a:active {
 
 #links{
 	text-align: center;
+	font-family: 'Poiret One', cursive;
 }
 
 #icons{
@@ -37,7 +38,13 @@ a:active {
 	padding-top: 8px;
 }
 
-.images{
+.image{
+	height: 220px;
+	margin: 0px 3px 0px 3px;
+	border: solid black 2px;
+}
+
+.images-preview{
 	margin: 0 auto;
 	max-width: 1000px;
 }
@@ -46,12 +53,21 @@ a:active {
     color:black;
 }
 
+h2{
+	font-family: 'Poiret One', cursive;
+}
+
 footer{
 	text-align: center;
 	font-size: 10px;
 	margin-top: 200px;
 }
 
+@media only screen and (max-width: 60em){
+	#header{
+			font-size: 8em;
+		}
+}
 @media only screen and (max-width: 40em){
 		#header{
 			font-size: 5em;
