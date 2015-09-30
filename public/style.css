@@ -1,4 +1,55 @@
 #header{
 	text-align: center;
 	font-size: 10em;
+	font-family: 'Allura', cursive;
+}
+#navbar{
+}
+
+#nav{
+	color:#FFFFFF;
+	font-size: 20px;
+	text-align: center;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #ABB09D;
+}
+
+a:active {
+    color: #FFFFFF;
+}
+
+#links{
+	text-align: center;
+}
+
+#icons{
+	font-size:28px;
+	padding-top: 8px;
+}
+
+.images{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+@media only screen and (max-width: 40em){
+		#header{
+			font-size: 5em;
+		}
+		#nav{
+			font-size:15px;
+		}
+		#icons{
+			font-size:15px;
+		}
 }
