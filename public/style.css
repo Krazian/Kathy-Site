@@ -3,8 +3,6 @@
 	font-size: 10em;
 	font-family: 'Allura', cursive;
 }
-#navbar{
-}
 
 #nav{
 	color:#FFFFFF;
@@ -12,6 +10,7 @@
 	text-align: center;
 }
 
+/*Change the color of links on the main page*/
 a:link {
     color: #FFFFFF;
 }
@@ -28,6 +27,7 @@ a:active {
     color: #FFFFFF;
 }
 
+/*Change the color of links inside modals*/
 #contact-email:link{
 	color:#000000;
 }

@@ -14,19 +14,21 @@
 	<link rel="stylesheet" href="/../style.css">
 </head>
 <body>
-	<!--Modal for all info -->
+	<!--About modal -->
 	<div class="reveal-modal small" id="aboutModal" data-reveal="">
 		<h2>About</h2>
  		<p>Place holder for Kathy's 'About Me' content</p>
  		<a class="close-reveal-modal">×</a>
 	</div>
-
+	
+	<!-- Testimonial modal -->
 	<div class="reveal-modal small" id="testimonialsModal" data-reveal="">
 		<h2>Testimonials</h2>
  		<p>Place holder for Kathy's 'Testimonial' content</p>
  		<a class="close-reveal-modal">×</a>
 	</div>
-
+	
+	<!-- Contact modal -->
 	<div class="reveal-modal small" id="contactModal" data-reveal="">
 		<h2>Contact</h2>
  		<p>Phone: (917) 388-6283</br>
@@ -36,17 +38,22 @@
  		<a class="close-reveal-modal">×</a>
 	</div>
 
-	<!-- The header -->
 	<header class="header" id="header" data-reveal-id="myModal">Kat's Artistry</header>
 
 	<!-- The Nav Bar -->
 	<div class="row">
   <div class="top-bar" id="navbar" data-topbar role="navigation">
-    <div class="large-3 medium-3 small-3 columns" id="links"> <a data-reveal-id="aboutModal" class="about" id="nav">About</a> </div>
 
-    <div class="large-3 medium-3 small-3 columns" id="links"> <a data-reveal-id="testimonialsModal" class="testimonials" id="nav">Testimonials</a> </div>
-
-    <div class="large-3 medium-3 small-3 columns" id="links"> <a data-reveal-id="contactModal" class="contact" id="nav">Contact</a> </div>
+  	<!-- Triggers/Links for modals -->
+    <div class="large-3 medium-3 small-3 columns" id="links">
+    	<a data-reveal-id="aboutModal" class="about" id="nav">About</a>
+    </div>
+    <div class="large-3 medium-3 small-3 columns" id="links">
+    	<a data-reveal-id="testimonialsModal" class="testimonials" id="nav">Testimonials</a>
+    </div>
+    <div class="large-3 medium-3 small-3 columns" id="links">
+    	<a data-reveal-id="contactModal" class="contact" id="nav">Contact</a>
+    </div>
 
     <!-- Social Media Links -->
     <div class="large-3 medium-3 small-3 columns" id="links">
@@ -55,29 +62,26 @@
 	    <a href="http://www.instagram.com/" class="fa fa-instagram" id="icons"></a>
 	    <a href="http://www.flickr.com/" class="fa fa-flickr" id="icons"></a>
   	</div>
-
+  <!-- End foundation nav bar -->
   </div>
+ <!-- End foundation row -->
  </div>
 
-<!-- For Kathy's Image -->
-<!-- Images to be added via jQuery script -->
-<div class="headshots">
-</div>
-</br>
-<div class="wedding-and-prom">
-</div>
-</br>
-<div class="before-and-after">
-</div>
+	<!-- Kathy's images. Will be populated with jQuery -->
+	<div class="headshots"></div>
+	</br>
+	<div class="wedding-and-prom"></div>
+	</br>
+	<div class="before-and-after"></div>
 
-<footer>Designed by Johnathan Chei. All Rights Reserved.</footer>
+	<footer>Designed by Johnathan Chei. All Rights Reserved.</footer>
 <!-- Scripts -->
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="/../foundation-5.5.2/js/vendor/jquery.js"></script>
-<script src="/../foundation-5.5.2/js/foundation/foundation.js"></script>
-<script src="/../foundation-5.5.2/js/foundation/foundation.topbar.js"></script>
-<script src="/../foundation-5.5.2/js/foundation/foundation.reveal.js"></script>
+<script type="text/javascript" src="/../foundation-5.5.2/js/vendor/jquery.js"></script>
+<script type="text/javascript" src="/../foundation-5.5.2/js/foundation/foundation.js"></script>
+<script type="text/javascript" src="/../foundation-5.5.2/js/foundation/foundation.topbar.js"></script>
+<script type="text/javascript" src="/../foundation-5.5.2/js/foundation/foundation.reveal.js"></script>
 <script type="text/javascript" src="/../slick-1.5.7/slick/slick.min.js"></script>
 <script type="text/javascript" src="../scripts.js"></script>
 </body>

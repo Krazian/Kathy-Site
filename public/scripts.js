@@ -19,7 +19,7 @@ $(document).ready(function(){
 		img.appendTo('.before-and-after');
 	}
 
-	//image carousel
+	//image carousel for headshots
   $('.headshots').slick({
     slidesToShow: 5,
     slidesToScroll: 4,
@@ -31,7 +31,7 @@ $(document).ready(function(){
     pauseOnHover: true
   });
 
-  //image carousel
+  //image carousel for wedding and prom pictures
   $('.wedding-and-prom').slick({
     slidesToShow: 5,
     slidesToScroll: 4,
@@ -43,7 +43,7 @@ $(document).ready(function(){
     pauseOnHover: true
   });
 
-  //image carousel
+  //image carousel for before and after pictures
   $('.before-and-after').slick({
     slidesToShow: 5,
     slidesToScroll: 4,
