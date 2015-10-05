@@ -82,6 +82,7 @@ a:active {
 h2{
 	font-family: 'Poiret One', cursive;
 	text-align: center;
+	text-decoration: underline;
 }
 
 p{
@@ -95,21 +96,19 @@ footer{
 	font-size: 10px;
 	margin-top: 200px;
 }
+
+.video{
+	text-align: center;
+}
 /*Media query to adjust the size of the images*/
 /*'Medium' size*/
 @media only screen and (max-width: 60em){
-	#header{
-			font-size: 8em;
-		}
 	.image{
 		height: 150px;
 	}
 }
 /*'Small' size*/
 @media only screen and (max-width: 40em){
-		#header{
-			font-size: 5em;
-		}
 		#nav{
 			font-size:15px;
 		}
