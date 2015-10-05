@@ -1,12 +1,12 @@
 $(document).ready(function(){
 	//adds all pictures to the DOM
-	for (var i = 1; i <= 17; i++){
+	for (var i = 1; i <= 16; i++){
 		var img = $('<img>');
 		img.attr('src', '/../images/headshots/'+i+'.jpg');
 		img.addClass('image');
 		img.appendTo('.headshots');
 	}
-	for (var i = 1; i <= 4; i++){
+	for (var i = 1; i <= 5; i++){
 		var img = $('<img>');
 		img.attr('src', '/../images/weddingprom/'+i+'.jpg');
 		img.addClass('image');
