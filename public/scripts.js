@@ -9,7 +9,6 @@ $(document).ready(function(){
 	for (var i = 1; i <= 5; i++){
 		var img = $('<img>');
 		img.attr('src', '/../images/weddingprom/'+i+'.jpg');
-    img.attr('data-reveal-id', 'imageModal');
     img.addClass('image');
 		img.appendTo('.wedding-and-prom');
 	}
@@ -17,6 +16,7 @@ $(document).ready(function(){
 		var img = $('<img>');
 		img.attr('src', '/../images/beforeafter/'+i+'.jpg');
 		img.addClass('image');
+    img.appendTo('.before-and-after')
 	}
 
 	//image carousel for headshots
