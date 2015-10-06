@@ -9,14 +9,14 @@ $(document).ready(function(){
 	for (var i = 1; i <= 5; i++){
 		var img = $('<img>');
 		img.attr('src', '/../images/weddingprom/'+i+'.jpg');
-		img.addClass('image');
+    img.attr('data-reveal-id', 'imageModal');
+    img.addClass('image');
 		img.appendTo('.wedding-and-prom');
 	}
 	for (var i = 1; i <= 5; i++){
 		var img = $('<img>');
 		img.attr('src', '/../images/beforeafter/'+i+'.jpg');
 		img.addClass('image');
-		img.appendTo('.before-and-after');
 	}
 
 	//image carousel for headshots
@@ -59,10 +59,20 @@ $(document).ready(function(){
   $(".about").click(function () {
     $('#aboutModal').foundation('reveal', 'open');
 	});
+
   $(".testimonials").click(function () {
     $('#testimonialsModal').foundation('reveal', 'open');
 	});
+
   $(".contact").click(function () {
     $('#contactModal').foundation('reveal', 'open');
 	});
+
+  $(".image").click(function () {
+    var source = this.src
+    $('#imageModal').foundation('reveal', 'open');
+    $('#imageModal').html("<img src="+source+"><a class='close-reveal-modal'>×</a>")
+  });
 });
+
+
